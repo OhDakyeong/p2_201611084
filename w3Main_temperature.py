@@ -3,7 +3,7 @@
 sel=raw_input("F or C: ")
 
 temp=int(temp)
-
+if(sel=="F"):
     print ((temp-32)/1.8),"C"
 
 elif(sel=="C"):
