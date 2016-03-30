@@ -1,0 +1,27 @@
+﻿@startuml
+
+start
+
+title Game RSP
+
+:get user input rsp;
+
+if ("scissors"=="scissors",
+"rock"=="rock",
+"paper"=="paper")
+:equal;
+
+elseif ("rock"=="scissors")
+:rock win;
+
+elseif ("rock"=="paper")
+:paper win;
+
+else ("paper"=="scissors")
+:scissors win;
+
+endif
+:print result;
+
+stop
+@enduml
