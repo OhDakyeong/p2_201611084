@@ -1,24 +1,24 @@
-﻿@startuml
+@startuml
 
 start
 
 title Game RSP
 
-:get user input rsp;
+:get user input A;
+:get user input B;
 
-if ("s"=="s",
-"r"=="r",
-"p"=="p")
-:equal;
+if (A==B)
+:print "draws;
 
-elseif ("r"=="s")
-:r win;
+elseif (A=="s", B=="p"
+or A=="p", B=="r"
+or A=="r", B=="s")
+:print "A wins";
 
-elseif ("r"=="p")
-:p win;
-
-else ("p"=="s")
-:s win;
+elseif (A=="r", B=="p"
+or A=="s", B=="r"
+or A=="p", B=="s")
+:print "B wins";
 
 endif
 :print result;
