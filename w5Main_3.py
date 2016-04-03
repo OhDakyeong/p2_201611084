@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[5]:
-
 userA=raw_input("get userA choice: ")
 userB=raw_input("get userB choice: ")
 print userA, userB
