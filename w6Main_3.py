@@ -1,4 +1,8 @@
-﻿def lab6_3():
+"""
+@author odk
+@since 160407
+"""
+def lab6_3():
     min=1
     max=10
     import random
@@ -60,4 +64,8 @@
                 print "The Number is Lower than 2"
                 print "It is",set
                 print ment,check
-lab6_3()
+def main(): 
+     lab3() 
+ 
+if __name__=="__main__": 
+    main() 
