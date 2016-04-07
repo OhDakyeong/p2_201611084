@@ -3,7 +3,7 @@
 @since 160406
 """
 
-year=raw_input("enter year: ")
+year=raw_input("input year: ")
 year=int(year)
 def lab6_2(year):
     if (year%4==0) and (year%100!=0 or year%400==0):
