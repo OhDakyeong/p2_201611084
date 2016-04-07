@@ -65,7 +65,7 @@ def lab6_3():
                 print "It is",set
                 print ment,check
 def main(): 
-     lab3() 
+     lab6_3() 
  
 if __name__=="__main__": 
     main() 
