@@ -127,8 +127,8 @@ President=["There is a man here who has earned a lasting place in our hearts and
    "Or that we stopped to ask if a sick child had gotten better, and stayed a moment there to trade a word of friendship?"]
 
 c=dict()
-for i in range(0,len(GB)):
-    for b in GB[i].split():
+for i in range(0,len(President)):
+    for b in President[i].split():
         if b in c:
             c[b]=c[b]+1
             print c
