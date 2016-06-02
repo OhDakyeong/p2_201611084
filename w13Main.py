@@ -35,5 +35,5 @@ def lab13():
 def main():
     lab13()
 
-if __name__=="__main()__":
+if __name__=="__main__":
     main()
