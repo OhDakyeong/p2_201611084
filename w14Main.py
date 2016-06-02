@@ -79,5 +79,5 @@ def lab14():
 def main():
     lab14()
 
-if __name__=="__main()__":
+if __name__=="__main__":
     main()
