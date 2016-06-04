@@ -1,16 +1,16 @@
 ﻿import turtle
 wn=turtle.Screen()
 t1=turtle.Turtle()
-img=r"C:\Users\오다경\Mr.gif"
+img="Mr.gif"
 wn.addshape(img)
 t1.shape(img)
 t1.penup()
 t1.goto(0,-200)
-bgimg=r"C:\Users\오다경\bg.gif"
+bgimg="bg.gif"
 wn.bgpic(bgimg)
-bgimgR=r"C:\Users\오다경\c1.gif"
-bgimgB=r"C:\Users\오다경\c2.gif"
-bgimgG=r"C:\Users\오다경\c3.gif"
+bgimgR="c1.gif"
+bgimgB="c2.gif"
+bgimgG="c3.gif"
 
 def keyup():
     t1.setheading(90)
